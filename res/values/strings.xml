@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">화장밥</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="info">본 어플은 화성시장학관 홈페이지 소스를 기반으로 만들어졌습니다.</string>
+    <string name="app_ver">1.0.4</string>
+    <string name="dev_mail">wjdrb0626@naver.com</string>
+</resources>

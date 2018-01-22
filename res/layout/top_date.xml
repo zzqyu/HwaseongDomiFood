@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="36dp"
+    android:layout_gravity="top"
+    android:background="@color/subbar" >
+
+    <Button
+        android:id="@+id/pre"
+        android:layout_width="20dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/ic_pre" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="17dp" />
+
+    <FrameLayout
+        android:layout_width="74dp"
+        android:layout_height="fill_parent"
+        android:layout_gravity="right" >
+
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="right"
+            android:layout_marginBottom="6dp"
+            android:layout_marginRight="48dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/ic_refresh" />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="4dp"
+        	android:layout_marginTop="4dp"
+            android:background="@drawable/ic_next" />
+    </FrameLayout>
+
+</FrameLayout>

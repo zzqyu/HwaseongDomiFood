@@ -1,0 +1,243 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/main"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="안내"
+            android:textColor="@color/subbar"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sub"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/info"
+            android:textColor="@color/text"
+            android:textSize="10.5dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/under_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/subbar"
+        android:orientation="horizontal" />
+    
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/main1"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="현재 어플 버전"
+            android:textColor="@color/subbar"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sub1"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/app_ver"
+            android:textColor="@color/text"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/under_bar1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/subbar"
+        android:orientation="horizontal" />
+    
+    <LinearLayout
+        android:id="@+id/ll1_1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/main1_1"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="최신 어플 버전"
+            android:textColor="@color/subbar"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sub1_1"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:textColor="@color/text"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/under_bar1_1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/subbar"
+        android:orientation="horizontal" />
+    
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/main2"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="개발자: DOL Apps"
+            android:textColor="@color/subbar"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sub2"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/dev_mail"
+            android:textColor="@color/text"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/under_bar2"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/subbar"
+        android:orientation="horizontal" />
+    
+    <LinearLayout
+        android:id="@+id/ll2_1"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:onClick="ll2_1"
+        android:paddingLeft="8dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/main2_1"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="페이스북 페이지"
+            android:textColor="@color/subbar"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sub2_1"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="누르면 화장밥 페이지로 이동합니다."
+            android:textColor="@color/text"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/under_bar2_1"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/subbar"
+        android:orientation="horizontal" />
+    
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:onClick="ll3"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="8dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/main3"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="Play Store (마켓) 링크"
+            android:textColor="@color/subbar"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sub3"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="누르면 본 어플 Play Store 링크로 들어갑니다."
+            android:textColor="@color/text"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/under_bar3"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/subbar"
+        android:orientation="horizontal" />
+
+</LinearLayout>
